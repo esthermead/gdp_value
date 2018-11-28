@@ -1,0 +1,13 @@
+_CONCLUSION-MLPlinear5-gdp
+
+-overflow errors no matter alpha, iteration when use raw data.
+-when use "gdp_value_standardscaler_both_features.txt":
+	-for gdp of -0.630781723, 1.284860296 TRUE= -0.469409364, 2.421761542
+	for:		got:
+	0.001, 500	-0.048529, 0.098850
+	1.0, 150000	-0.123480, 0.251520
+	1.0, 300000	-0.123480, 0.251520
+-works (no errors) but not good at predicting.
+
+
+see .ipynb
