@@ -5,6 +5,7 @@ _CONCLUSION-MLPlinear5-gdp
 	-for gdp of -0.630781723, 1.284860296 TRUE= -0.469409364, 2.421761542
 	for:		got:
 	0.001, 500	-0.048529, 0.098850
+	0.003, 2000	-0.123173, 0.250895 <--the one shown in project presentation.
 	1.0, 150000	-0.123480, 0.251520
 	1.0, 300000	-0.123480, 0.251520
 -works (no errors) but not good at predicting.
